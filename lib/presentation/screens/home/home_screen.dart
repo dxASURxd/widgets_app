@@ -56,6 +56,14 @@ class _CustomListTile extends StatelessWidget {
       title: Text(menuItem.title),
       subtitle: Text(menuItem.subTitle),
       onTap: () {
+        // // navigation forms by Flutter
+        // Navigator.of(context).push(MaterialPageRoute(
+        //   builder: (context) => const ButtonScreen(),
+        // ));
+        // Navigator.pushNamed(context, menuItem.link);
+        // contect.pushedNamed(CardScreen.name)
+
+        // -- GO Router -- //
         context.push(menuItem.link);
       },
     );
