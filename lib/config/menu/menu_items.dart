@@ -26,40 +26,34 @@ const appMenuItems = <MenuItems>[
     link: '/cards',
     icon: Icons.credit_card,
   ),
-  // ------------------------
   MenuItems(
     title: 'animated',
     subTitle: 'animated screen',
     link: '/animated',
     icon: Icons.animation,
   ),
-  // ------------------------
   MenuItems(
     title: 'tutorial',
     subTitle: 'app tutorial',
     link: '/apptuto',
     icon: Icons.door_back_door,
   ),
-  // ------------------------
   MenuItems(
     title: 'infinite',
     subTitle: 'infinite scroll',
     link: '/scroll',
     icon: Icons.downhill_skiing_sharp,
   ),
-  // ------------------------
   MenuItems(
     title: 'progress',
     subTitle: 'progress screen',
     link: '/progress',
     icon: Icons.insert_chart,
   ),
-  // ------------------------
   MenuItems(
     title: 'snackbar',
     subTitle: 'snackbar  screen',
     link: '/snackbar',
     icon: Icons.food_bank_sharp,
   ),
-  // ------------------------
 ];
