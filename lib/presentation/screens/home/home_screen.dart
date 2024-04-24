@@ -11,7 +11,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Buttons app'),
+        title: const Text('Widgets'),
       ),
       body: const _HomeView(),
     );
