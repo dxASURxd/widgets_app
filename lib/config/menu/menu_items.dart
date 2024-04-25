@@ -45,6 +45,12 @@ const appMenuItems = <MenuItems>[
     icon: Icons.animation,
   ),
   MenuItems(
+    title: 'ui',
+    subTitle: 'ui controlls',
+    link: '/uicontroller',
+    icon: Icons.control_point_duplicate,
+  ),
+  MenuItems(
     title: 'tutorial',
     subTitle: 'app tutorial',
     link: '/apptuto',
