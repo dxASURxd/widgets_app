@@ -27,10 +27,16 @@ const appMenuItems = <MenuItems>[
     icon: Icons.credit_card,
   ),
   MenuItems(
-    title: 'progress',
+    title: 'progress indicators',
     subTitle: 'progress screen',
     link: '/progress',
     icon: Icons.refresh_rounded,
+  ),
+  MenuItems(
+    title: 'snackbar and dialogs',
+    subTitle: 'snackbar  screen',
+    link: '/snackbar',
+    icon: Icons.info_outline,
   ),
   MenuItems(
     title: 'animated',
@@ -49,11 +55,5 @@ const appMenuItems = <MenuItems>[
     subTitle: 'infinite scroll',
     link: '/scroll',
     icon: Icons.downhill_skiing_sharp,
-  ),
-  MenuItems(
-    title: 'snackbar',
-    subTitle: 'snackbar  screen',
-    link: '/snackbar',
-    icon: Icons.food_bank_sharp,
   ),
 ];
