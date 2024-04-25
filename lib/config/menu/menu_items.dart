@@ -53,8 +53,8 @@ const appMenuItems = <MenuItems>[
   MenuItems(
     title: 'tutorial',
     subTitle: 'app tutorial',
-    link: '/apptuto',
-    icon: Icons.door_back_door,
+    link: '/tutorial',
+    icon: Icons.pages_outlined,
   ),
   MenuItems(
     title: 'infinite',
